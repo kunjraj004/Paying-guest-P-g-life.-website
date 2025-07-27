@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="logo.jpg" alt="PG Life Logo"></a>
+        <div class="nav-link" id="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="properties.html">PROPERTIES</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>   
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="Reviews.html">REVIEWS</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+ <h1>FAQ</h1>
+</section>
+
+ <!----------faq-------->
+ <section>
+    <h2>PG LIFE IN DELHI</h2><br>
+    <br>
+    <br>
+    <h3>What is a PG?</h3>
+<p>A PG, or paying guest accommodation,<br> is a type of housing where residents pay rent for a room, and sometimes meals, and laundry services. </p>
+<br>    
+<h3>What amenities are typically included in a PG?</h3>
+<p>PGs often provide essential amenities like Wi-Fi, <br>electricity, laundry, and water. Some PGs also offer meal plans and other services. </p>
+<br>
+  <h3>What types of rooms are available in PGs?</h3>
+  <p>PGs offer a range of room options, including shared bedrooms (double, triple, or even larger) and private rooms. </p>
+<br>
+  <h3>Can I live alone in a PG?</h3>
+  <p>Yes, many PGs offer private rooms for individuals who prefer to live alone. </p>
+<br>
+  <h3>Is PG life suitable for students?</h3>
+<p>Yes, PGs are a popular and convenient option for students seeking temporary housing while pursuing higher education. </p>
+
+
+
+</section>
+        
+    
+
+
+
+
+
+
+
+       
+    
+    
+    
+     
+    
+     
+
+    
+       
+
+    
+
+
+
+
+
+            
+
+
+        
+
+
+
+       
+       
+    
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------- Footer ---------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        PG Life Hostels offer comfortable and secure accommodation for both girls and boys,<br>
+        providing essential amenities and services.
+    </p>
+    <div class="email">
+        <p>pGlife@gmail.com</p>
+    </div>
+</section>
+
+
+<!----------- JavaScript Menu Toggle ---------->
+<script>
+    var navlink = document.getElementById("nav-links");
+
+    function showMenu() {
+        navlink.style.right = "0";
+    }
+
+    function hideMenu() {
+        navlink.style.right = "-200px";
+    }
+</script>
+
+
+<!--contacus js code-->
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault(); // Prevent form from submitting normally
+
+    // Show success message
+    document.getElementById("form-status").textContent = "Your message has been sent successfully!";
+
+    // Clear form inputs
+    this.reset();
+
+    // Optionally, clear message after 5 seconds
+    setTimeout(() => {
+      document.getElementById("form-status").textContent = "";
+    }, 5000);
+  });
+</script>
+
+</body>
+</html>

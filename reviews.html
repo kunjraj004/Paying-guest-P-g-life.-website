@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG Life</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="logo.jpg" alt="PG Life Logo"></a>
+        <div class="nav-link" id="nav-links">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="login.html">LOGIN</a></li>
+                <li><a href="properties.html">PROPERTIES</a></li>
+                <li><a href="aboutus.html">ABOUT</a></li>   
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="Reviews.html">REVIEWS</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+    </nav>
+ <h1>REVIEWS</h1>
+</section>
+
+ <!----------reviwes-------->
+
+  <section class="testimoials">
+    <h2>What Ous customers Says</h2>
+    <p>Are hostels good for students? Absolutely! Living in a hostel teaches time management, financial independence,<br> and social adaptability. It's a space where students grow, explore, and step out of their comfort zones.</p>
+    <div class="row">
+        <div class="test-col">
+            <img src="test1.webp" alt="">
+            <div>
+                <p>Everything was really good: every space (rooms, kitchen and toilets) were clean at every moment, 
+                    the room was comfy and with enough spacethe location was close to the center (a 10 min walk) 
+                     and the personal was absolutely helpful about both the hostel itself and any doubt regarding the city.</p>
+                    <h3>Christine Bekley</h3>
+   
+                    </div>
+        </div>
+        
+
+    <div class="test-col">
+        <img src="test2.jpg" alt="">
+        <div>
+            <p>The location was very good. All public transports are very close from the hotel. Stuff’s were very nice & helpful. Restaurants are also in front of the hotel.
+                 Rooms are very clean.Everyday they cleaned rooms & washrooms. I will always try to book this hotel when I will visit Lisbon .</p>
+            <h3>David Byer</h3>
+            
+        </div>
+    </div>
+
+    <div class="test-col">
+        <img src="test3.jpg" alt="">
+        <div>
+            <p>Everything was really good: every space (rooms, kitchen and toilets) were clean at every moment, 
+                the room was comfy and with enough spacethe location was close to the center (a 10 min walk) 
+                 and the personal was absolutely helpful about both the hostel itself and any doubt regarding the city.</p>
+                <h3>Christine Bekley</h3>
+               
+       </div>
+     </div>
+    </div>
+</section>
+    
+
+
+
+
+
+
+
+       
+    
+    
+    
+     
+    
+     
+
+    
+       
+
+    
+
+
+
+
+
+            
+
+
+        
+
+
+
+       
+       
+    
+    
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <!---------- Footer ---------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>
+        PG Life Hostels offer comfortable and secure accommodation for both girls and boys,<br>
+        providing essential amenities and services.
+    </p>
+    <div class="email">
+        <p>pGlife@gmail.com</p>
+    </div>
+</section>
+
+
+<!----------- JavaScript Menu Toggle ---------->
+<script>
+    var navlink = document.getElementById("nav-links");
+
+    function showMenu() {
+        navlink.style.right = "0";
+    }
+
+    function hideMenu() {
+        navlink.style.right = "-200px";
+    }
+</script>
+
+
+<!--contacus js code-->
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(e) {
+    e.preventDefault(); // Prevent form from submitting normally
+
+    // Show success message
+    document.getElementById("form-status").textContent = "Your message has been sent successfully!";
+
+    // Clear form inputs
+    this.reset();
+
+    // Optionally, clear message after 5 seconds
+    setTimeout(() => {
+      document.getElementById("form-status").textContent = "";
+    }, 5000);
+  });
+</script>
+
+</body>
+</html>

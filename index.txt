@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pg life</title>
+    <link rel="stylesheet" href="index.css">
+  <!---- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">-->
+  
+</head>
+<body>
+    <section class="header">
+<nav>
+    <a href="index.html"><img src="logo.jpg" alt=""></a>
+    <div class="nav-link" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i> 
+        <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">LOGIN</a></li>
+            <li><a href="">ABOUT</a></li>
+            
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">FQA</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Happniess Per Square Foot</h1>
+    <p>Our properties are strategically located near popular colleges and universities,</br> making them the perfect choice for students.
+</p>
+<a href="" class="hero-btm">Visit Us To Know More</a>
+
+</div>
+
+
+    </section>
+
+    <!-----Facilities-->
+    <section class="facilities">
+        <h1>Facilities We Provide</h1>
+        <p>Our comprehensive suite of professional services caters to a diverse clientele,</br> ranging from students to working professionals.
+      </p>
+
+      <div class="row">
+       
+        <div class="facilities-col">
+            <h2>Four Time Meals</h2>
+            <p>Experience the fusion of imagination and expertise with variety of foods.</p>
+        </div>
+        <div class="facilities-col">
+            <h2>Housekeeping</h2>
+            <p>Regular housekeeping services are provided to maintain cleanliness and hygiene.</p>
+        </div>
+        <div class="facilities-col">
+            <h2>24×7 Securit</h2>
+            <p>Security is a top priority, with CCTV surveillance, security guards, and biometric access </p>
+        </div>
+        <div class="facilities-col">
+            <h2>Unlimited Wi-fi</h2>
+            <p>Complimentary Wi-Fi is available in all PGs to ensure uninterrupted connectivity</p>
+        </div>
+        <div class="facilities-col">
+            <h2>Fully-furnished</h2>
+            <p>All PGs provide well-furnished rooms with beds, wardrobes, study tables, and chairs</p>
+        </div>
+        <div class="facilities-col">
+            <h2>Laundry Services</h2>
+            <p>Laundry services are provided to maintain cleanliness and hygiene.</p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-------resources----->
+
+    <section class="resources">
+        <h1>An array of resources</h1>
+        <p>Our comprehensive suite of professional services caters to a diverse clientele, ranging from homeowners to working professionals.
+
+        </p>
+        <div class="row">
+            <div class="resour-col">
+                <img src="game.jpg" alt="">
+                <div class="layer">
+                    <h2>Gaming Zone</h2>
+                </div>
+            </div>
+            <div class="resour-col">
+                <img src="game2.jpg" alt="">
+                <div class="layer">
+                    <h2>Common Areas</h2>
+        </div>
+         </div>
+        <div class="resour-col">
+                <img src="dining.jpg" alt="">
+                <div class="layer">
+                    <h2>Dining Area</h2>
+                    </div>
+                    </div>
+                     </div>
+        
+
+    </section>
+    <!--------pg"s------->
+    <section class="pg">
+        <h1>Occupancy Options in PG Life</h1>
+        <P>PG (Paying Guest) accommodations offer various occupancy options, including single, double, and triple sharing, </br>catering to different needs and budgets.</P>
+    <div class="row">
+        <div class="pg-col">
+            <img src="single1.webp" alt="">
+            <h2>Single room with AC and Non-Ac</h2>
+            <h3>Rent-₹5,000</h3>
+            <h3>Room available-20</h3>
+        </div>
+        <div class="pg-col">
+            <img src="double.jpeg" alt="">
+            <h2>Double room with AC and Non-Ac</h2>
+            <h3>Rent-₹7,000</h3>
+            <h3>Room available-20</h3>
+        </div>
+        <div class="pg-col">
+            <img src="triple.jpg" alt="">
+            <h2>Triple room with AC and Non-Ac</h2>
+            <h3>Rent-₹10,000</h3>
+            <h3>Room available-20</h3>
+        </div>
+    </div>
+    
+    
+    
+    </section>
+
+    <!------testimonials--------->
+<section class="testimoials">
+    <h1>What Ous customers Says</h1>
+    <p>Are hostels good for students? Absolutely! Living in a hostel teaches time management, financial independence,<br> and social adaptability. It's a space where students grow, explore, and step out of their comfort zones.</p>
+    <div class="row">
+        <div class="test-col">
+            <img src="test1.webp" alt="">
+            <div>
+                <p>Everything was really good: every space (rooms, kitchen and toilets) were clean at every moment, 
+                    the room was comfy and with enough spacethe location was close to the center (a 10 min walk) 
+                     and the personal was absolutely helpful about both the hostel itself and any doubt regarding the city.</p>
+                    <h3>Christine Bekley</h3>
+   
+                    </div>
+        </div>
+        
+
+    <div class="test-col">
+        <img src="test2.jpg" alt="">
+        <div>
+            <p>The location was very good. All public transports are very close from the hotel. Stuff’s were very nice & helpful. Restaurants are also in front of the hotel.
+                 Rooms are very clean.Everyday they cleaned rooms & washrooms. I will always try to book this hotel when I will visit Lisbon .</p>
+            <h3>David Byer</h3>
+            
+        </div>
+    </div>
+
+    <div class="test-col">
+        <img src="test3.jpg" alt="">
+        <div>
+            <p>Everything was really good: every space (rooms, kitchen and toilets) were clean at every moment, 
+                the room was comfy and with enough spacethe location was close to the center (a 10 min walk) 
+                 and the personal was absolutely helpful about both the hostel itself and any doubt regarding the city.</p>
+                <h3>Christine Bekley</h3>
+               
+       </div>
+     </div>
+    </div>
+</section>
+
+<!-----------Call To Action------>
+
+<section class="cta">
+    <h1>Enroll for our online pg's  Anywhere from The World</h1>
+    <a href=""class="hero-btm">CONTACT US </a>
+</section>
+
+<!----------footer------>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Imagine a stay that spells world class quality, is located in an urban hub where all your lifestyle needs are only minutes away and yet a stay that is situated in sensible nature. Nature that’s clean and breathes life in you, loves you, caresses you to make you believe that you reside in a world of happiness. A Paying Guest Accommodation, that is immensely affordable and stuff of pleasure.
+
+        We at PG life made this reality for you with our latest PG facility VASTU VIHAR-Dhruv Nagar, which brings you a new-fangled series of apartment, in the vicinity of Nasik’s one of the biggest manufacturing hub Satpur MIDC; presenting you quality PG accommodation priced at so affordable and too, exclusivity.
+        
+        Situated on strategically fastest Prominent Gangapur-Satpur Link Road (SH No.27), where your lifestyle needs are within a few minutes reach.
+         Market, shopping, bus station, petrol pumps & banks are located within 5 to 10 minutes. Leading Hospitals, Schools, University &Colleges, 
+         Spiritual destinations are all between 5 to 15 minutes drive. Moreover, the majority of work stations in Satpur MIDC zone too are 5 to 10 minutes drive from here.</p>
+<div class="email">
+    <p>@pslife.gmail.com</p>
+</div>
+
+  </section>
+
+
+<script>
+    var navlinks= document.getElementById("navLinks");
+    function show() {
+        navlinks.style.right="0";
+    }
+    function hideMenu{
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
